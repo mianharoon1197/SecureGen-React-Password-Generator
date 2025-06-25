@@ -2,6 +2,8 @@
 
 A sleek, responsive, and secure password generator built using **React + Vite**, powered by modern UI components and toast notifications. 🎨⚡
 
+---
+
 ## ✨ Features
 
 - ✅ Generate random, secure passwords
@@ -16,16 +18,22 @@ A sleek, responsive, and secure password generator built using **React + Vite**,
 ---
 
 ## 🧩 Tech Stack
-⚛️ React + Vite	
-🎨 Tailwind CSS	
-🧩 Lucide Icons	
-🔔 React Hot Toast	
-💡 Hooks (useState, useEffect, useCallback)	components
-📋 Clipboard API
+
+| Tool               | Purpose                                      |
+|--------------------|----------------------------------------------|
+| ⚛️ React + Vite        | Frontend framework + dev server              |
+| 🎨 Tailwind CSS        | Utility-first styling                        |
+| 🧩 Lucide Icons        | Modern icons for UI                          |
+| 🔔 React Hot Toast     | Lightweight toast notifications              |
+| 🧠 React Hooks         | useState, useEffect, useCallback             |
+| 📋 Clipboard API       | Copy generated password to clipboard         |
+
+---
 
 ## 🚀 Live Demo
 
-> Coming Soon (Deploy on Vercel or Netlify)
+🔗 [Live Site on Vercel](https://secure-gen-react-password-generator-f0m3s3s98.vercel.app)  
+
 
 ---
 
@@ -37,3 +45,4 @@ Clone the repo and install dependencies:
 git clone https://github.com/your-username/securegen.git
 cd securegen
 npm install
+npm run dev
